@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/gym.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+.left{
+  
+display: inline-block;
+position: absolute;
+left:15px;
+top:15px;
+
+
+}
+.centre{
+    display:block;
+ 
+    width: 45vw;
+    margin: 15px auto;
+   
+}
+.right{
+    
+    display: inline;
+     position: absolute;
+    right: 15px ;
+    top: 15px;
+    
+    
+
+}
+
+
+.nav li{
+    list-style: none;
+    display:inline-block ;
+}
+
+.centre ul li a{
+   color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.5vw;
+    font-size: 2vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nav a:hover{
+
+    color: yellow;
+     font-size: 1.90vw; 
+    text-decoration: underline;
+}
+.left img{
+    width: 5vw;
+}
+.right button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.right button{
+    background-color: black;
+    padding: .5vw;
+    border-radius: 5%;
+   
+
+}
+.right button a:hover{
+
+color:yellow ;
+text-decoration: underline;
+   
+}
+.container{
+    
+    display:block ;
+    width: 30vw;
+    position: relative;
+    top: 15vh;
+    left:8vw ;
+    padding: 1.4vw;
+    text-align: center;
+  
+    height: 40vh;
+}
+.container p{
+    font-size: 2vw;
+    background-color: black;
+    color: yellow;
+}
+.container input{
+   margin-left: 2vw;
+    margin-top: 3vh;
+    width: 15vw;
+    font-size: 1.5vw;
+   text-align: center;
+}
+.container input:hover{
+    font-size: 1.8vw ;
+}
+.container button{
+  margin-top: 2vh;
+  margin-left: 2vw;
+  font-size: 1.5vw;
+  padding: auto;
+  border-style: none;
+  border-radius: 1.5%;
+}
+.container button:hover{
+    font-size: 2vh;
+}
+.left img:hover{
+
+   width: 6vw;
+}
+
+@media (max-width:400px) {
+    
+    .centre ul li a{
+        font-size: 1.7vw;
+    }
+    
+}
